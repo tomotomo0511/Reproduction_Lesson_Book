@@ -1,13 +1,12 @@
 body {
   margin: 0 auto;
-  height: 300vh;
+  height: 100vh;
   width: 100vw;
-  background-color: lightpink;
 }
 /* -----------⬆リセットCSS⬆--------------------- */
 header {
   background-color: whitesmoke;
-  height: 10%;
+  height: 17%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -37,43 +36,43 @@ header {
   text-decoration: none;
 }
 .section-image {
-  height: 30%;
+  height: 80%;
   font-size: 50px;
   text-align: center;
   background-color: lightcoral;
 }
 .section-consept {
-  height: 30%;
+  height: 80%;
   font-size: 50px;
   text-align: center;
   background-color: lightcyan;
 }
 .section-news {
-  height: 30%;
+  height: 80%;
   font-size: 50px;
   text-align: center;
   background-color: lightpink;
 }
 .section-link {
-  height: 30%;
+  height: 80%;
   font-size: 50px;
   text-align: center;
   background-color: lightcyan;
 }
-.section-instagarm {
-  height: 30%;
+.section-instagram {
+  height: 80%;
   font-size: 50px;
   text-align: center;
   background-color: lightgoldenrodyellow;
 }
 .section-access {
-  height: 30%;
+  height: 80%;
   font-size: 50px;
   text-align: center;
   background-color: lightcyan;
 }
 footer {
-  height: 10%;
+  height: 35%;
   font-size: 50px;
   text-align: center;
   background-color: wheat;
