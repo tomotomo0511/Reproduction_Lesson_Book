@@ -1,6 +1,78 @@
 body {
   margin: 0 auto;
-  height: auto;
+  height: 300vh;
   width: 100vw;
+  background-color: lightpink;
 }
 /* -----------⬆リセットCSS⬆--------------------- */
+header {
+  background-color: whitesmoke;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-logo {
+  background-color: yellowgreen;
+}
+.header-title {
+  text-decoration: none;
+}
+.header-subtitle {
+  text-decoration: none;
+}
+.header-lists {
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-list {
+  background-color: yellowgreen;
+  list-style: none;
+}
+.header-link {
+  text-decoration: none;
+}
+.section-image {
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  background-color: lightcoral;
+}
+.section-consept {
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  background-color: lightcyan;
+}
+.section-news {
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  background-color: lightpink;
+}
+.section-link {
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  background-color: lightcyan;
+}
+.section-instagarm {
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+.section-access {
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  background-color: lightcyan;
+}
+footer {
+  height: 10%;
+  font-size: 50px;
+  text-align: center;
+  background-color: wheat;
+}
