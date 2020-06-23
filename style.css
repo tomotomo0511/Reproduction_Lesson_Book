@@ -5,30 +5,49 @@ body {
 }
 /* -----------⬆リセットCSS⬆--------------------- */
 header {
-  background-color: whitesmoke;
+  background-color: pink;
   height: 17%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   font-size: 50px;
-  text-align: center;
+  position: relative;
 }
 .header-logo {
+  height: auto;
+  width: auto;
   background-color: yellowgreen;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .header-title {
+  height: auto;
+  font-size: 50px;
   text-decoration: none;
+  position: absolute;
+  top: -25px;
 }
 .header-subtitle {
+  height: auto;
+  font-size: 14px;
   text-decoration: none;
+  position: absolute;
+  top: 60px;
 }
 .header-lists {
-  width: 100%;
+  height: auto;
+  width: 50%;
   background-color: yellow;
   display: flex;
   justify-content: space-evenly;
+  position: absolute;
+  right: 0;
 }
 .header-list {
+  height: auto;
+  width: 100%;
+  font-size: 16px;
   background-color: yellowgreen;
   list-style: none;
 }
