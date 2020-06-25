@@ -13,6 +13,9 @@ header {
   font-size: 50px;
   position: relative;
 }
+.nav {
+  text-decoration: none;
+}
 .header-logo {
   height: auto;
   width: auto;
@@ -56,43 +59,36 @@ header {
 }
 .section-image {
   height: 80%;
-  font-size: 50px;
   text-align: center;
   background-color: lightcoral;
 }
 .section-consept {
   height: 80%;
-  font-size: 50px;
   text-align: center;
   background-color: lightcyan;
 }
 .section-news {
   height: 80%;
-  font-size: 50px;
   text-align: center;
   background-color: lightpink;
 }
 .section-link {
   height: 80%;
-  font-size: 50px;
   text-align: center;
   background-color: lightcyan;
 }
 .section-instagram {
   height: 80%;
-  font-size: 50px;
   text-align: center;
   background-color: lightgoldenrodyellow;
 }
 .section-access {
   height: 80%;
-  font-size: 50px;
   text-align: center;
   background-color: lightcyan;
 }
 footer {
   height: 35%;
-  font-size: 50px;
   text-align: center;
   background-color: wheat;
 }

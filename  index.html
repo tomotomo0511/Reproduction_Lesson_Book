@@ -1,33 +1,85 @@
-<html>
+<!DOCTYPE html>
+  <!-- この文書がHTML5で作成されたものであることを宣言している。 -->
+
+<html lang="ja">
+  <!-- HTML文書であることを示す際に使用。 -->
+  <!-- lang属性で言語を指定することができる。日本語の場合はlang="ja"、英語の場合にはlang="en" 今回は日本語。-->
+
   <head>
+    <!-- 文書のヘッダ情報を表す際に使用。 -->
+    <!-- そのHTML文書に関するメタデータを集めたもの。 -->
+    <!-- メタデータとは“情報に関する情報”のことですが、HTMLの仕様では“その文書に関する様々な情報”を意味する。 -->
+    <!-- メタデータとは、その文書に関する情報のこと。<title>（タイトル）,<base>（基準URL）,<link>（リンク情報）,<style>（スタイルシート）,<meta>（メタデータ）など。 -->
+    <!-- HTML5では、head要素のprofile属性が廃止されている。 -->
+
     <meta charset="UTF-8">
+      <!-- 文字エンコーディングを指定しないと、日本語で作成されたウェブページに英語版のブラウザでアクセスした場合などに文字化けが起きることがあります。 必須ではありませんが、できるだけ指定したほうが良いでしょう。 -->
+
     <link rel="stylesheet" href="style.css">
+      <!-- リンクする外部リソースを指定する際に使用します。 外部リソースとは、例えば、HTMLファイル、CSSファイル、RSSファイルなど、現在の文書ファイルに関連している外部ファイルのことです。 -->
+      <!-- <link>タグを指定する場合には、href属性とrel属性が必須です。 href属性とrel属性が指定されていない場合には、<link>タグの指定は無効となります。 href属性には、リンクする外部ファイルのURLを指定します。 -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <!-- <script>タグは、文書にJavaScriptなどのスクリプトや、データブロックを組み込む際に使用します。 <script>タグは、<head>～</head>の中に配置することが多いですが、 <body>～</body>の中に配置しても問題ありません。 -->
+      
     <script type="text/javascript" src="script.js"></script>
+      <!-- type属性には、スクリプト言語やデータ形式を指定します。 利用するスクリプトがJavaScriptの場合にはtype="text/javascript"となりますが、 type属性の初期値はtype="text/javascript"なので、JavaScriptの場合にはtype属性の指定を省略することができます。 -->
+      <!-- スクリプト言語のタイプがtype="text/javascript"以外となる場合にはtype属性は必須です。 -->
+
+    <title>arica Paper &amp Design Books</title>
+      <!-- 文書にタイトルをつける際に使用します。 <title>タグで文書のタイトルを指定する場合には、一つの文書に一つだけ、<head>～</head>の中に配置します。 一つの文書内で複数の<title>を指定することはできません。 -->
+      <!-- <title>～</title>に指定する文書のタイトルは、 検索エンジンの検索結果画面やユーザーの利用するブラウザのブックマーク欄などに表示されるので、文書の内容を表すものを指定する必要があります。 -->
+      <!-- title要素はSEO対策としても大変重要な意味を持ちます。 検索結果で上位表示させたいキーワードがある場合には、 <title>～</title>の中に自然な形でキーワードを配置しておくべきでしょう。 -->
+      <!-- 文書のタイトルは、<h1>タグなどで指定する文書の最初の見出しと同じである必要はありません。 文書の最初の見出しは、文書の流れの中で理解されるためです。 -->
+
   </head>
+
   <body>
+    <!-- 文書の本体を表す際に使用します。 文書の本体とはブラウザ上に表示されるメインコンテンツのことです。 -->
+    <!-- HTML文書では、<body>要素は<html>～</html>の中に一つだけ配置します。 <body>～</body>の中には見出し・段落・表・フォームなどの要素を配置します。 -->
+
     <header> 
+      <!-- イントロダクションやナビゲーショングループであることを示す際に使用します。  -->
+      <!-- 文書のヘッダ情報を表す<head>タグとは異なりますので注意してください。 -->
+      <!-- 通常は<h1>・<h2>・<h3>・<h4>・<h5>・<h6>など、セクションの見出しが含まれることが想定されていますが、必ず必要というわけではありません。 -->
+      <!-- header要素は、HTML5から新たに追加された要素です。 -->
+      
+    <div class="wrapper"></div>
+
       <div class="header-logo">
-        <a href="#" class="header-link"><h2 class="header-title">arica</h2></a>
-        <a href="#" class="header-link"><h4 class="header-subtitle">Paper&DesginBooks</h4></a>
+        <a href="#" class="header-link"><h1 class="header-title">arica</h1></a>
+        <a href="#" class="header-link"><h2 class="header-subtitle">Paper&DesginBooks</h2></a>
       </div>
-      <ul class="header-lists">
-        <a href="#" class="header-link"><li class="header-list">アリカについて</li></a>
-        <a href="#" class="header-link"><li class="header-list">お知らせ</li></a>
-        <a href="#" class="header-link"><li class="header-list">交通案内</li></a>
-        <a href="#" class="header-link"><li class="header-list">お問い合わせ</li></a>
-        <a href="#" class="header-link"><li class="header-list">お買い物</li></a>
-        <a href="#" class="header-link"><li class="header-list">■</li></a>
-        <a href="#" class="header-link"><li class="header-list">■</li></a>
-        <a href="#" class="header-link"><li class="header-list">■</li></a>
-      </ul>
+      <nav>
+          <!-- ナビゲーションであることを示す際に使用します。 ナビゲーションとは、ウェブサイト内の他のページへのリンクや、ページ内リンクなどのことです。 -->
+          <!-- 他のページにリンクした箇所のすべてを<nav>～</nav>で囲む必要はなく、主要なナビゲーションとなるセクションのみを示すのに適しています。 -->
+          <!-- よく、ウェブページの下部に、利用規約ページ、著作権ページ、トップページへ戻る、などのリンクが配置されることがありますが、 このような場合には<nav>を使用せず、<footer>のみで十分です。 -->
+        <ul class="header-lists">
+          <a href="#" class="header-link"><li class="header-list">アリカについて</li></a>
+          <a href="#" class="header-link"><li class="header-list">お知らせ</li></a>
+          <a href="#" class="header-link"><li class="header-list">交通案内</li></a>
+          <a href="#" class="header-link"><li class="header-list">お問い合わせ</li></a>
+          <a href="#" class="header-link"><li class="header-list">お買い物</li></a>
+          <a href="#" class="header-link"><li class="header-list">■</li></a>
+          <a href="#" class="header-link"><li class="header-list">■</li></a>
+          <a href="#" class="header-link"><li class="header-list">■</li></a>
+        </ul>
+      </nav>
+
     </header>
+
+    <section>
       <div class="section-image">image</div>
       <div class="section-consept">consept</div>
       <div class="section-news">お知らせ</div>
       <div class="section-link">Link</div>
       <div class="section-instagram">Instagram</div>
       <div class="section-access">交通案内</div>
-    <footer>footer</footer>
+    </section>
+
+    <footer>
+      <small>footer</small>
+    </footer>
+
   </body>
 </html>
