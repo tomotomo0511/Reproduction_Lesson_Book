@@ -1,94 +1,60 @@
 body {
-  margin: 0 auto;
+  /* margin: 0 auto;
   height: 100vh;
-  width: 100vw;
+  width: 100vw; */
 }
 /* -----------⬆リセットCSS⬆--------------------- */
+
 header {
-  background-color: pink;
-  height: 17%;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 50px;
-  position: relative;
+
 }
-.nav {
-  text-decoration: none;
+
+nav {
+
 }
-.header-logo {
-  height: auto;
-  width: auto;
-  background-color: yellowgreen;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+/* .header-logo {
+
 }
 .header-title {
-  height: auto;
-  font-size: 50px;
-  text-decoration: none;
-  position: absolute;
-  top: -25px;
+
 }
 .header-subtitle {
-  height: auto;
-  font-size: 14px;
-  text-decoration: none;
-  position: absolute;
-  top: 60px;
+
 }
 .header-lists {
-  height: auto;
-  width: 50%;
-  background-color: yellow;
-  display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  right: 0;
+
 }
 .header-list {
-  height: auto;
-  width: 100%;
-  font-size: 16px;
-  background-color: yellowgreen;
-  list-style: none;
+
 }
 .header-link {
-  text-decoration: none;
+
+} */
+
+section {
+
 }
-.section-image {
-  height: 80%;
-  text-align: center;
-  background-color: lightcoral;
+
+/* .section-image {
+
 }
 .section-consept {
-  height: 80%;
-  text-align: center;
-  background-color: lightcyan;
+
 }
 .section-news {
-  height: 80%;
-  text-align: center;
-  background-color: lightpink;
+
 }
 .section-link {
-  height: 80%;
-  text-align: center;
-  background-color: lightcyan;
+
 }
 .section-instagram {
-  height: 80%;
-  text-align: center;
-  background-color: lightgoldenrodyellow;
+
 }
 .section-access {
-  height: 80%;
-  text-align: center;
-  background-color: lightcyan;
-}
+
+} */
+
 footer {
-  height: 35%;
-  text-align: center;
-  background-color: wheat;
+
 }
