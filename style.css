@@ -1,60 +1,99 @@
+@charset "UTF-8";
+html{color:#000;background:#FFF}
+body,div,ul,li,h1,h2,h3,p{margin:0;padding:0}
+h1,h2,h3{font-size:100%;font-weight:normal}
+footer,header,nav,section { display: block }
+html {font-size: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+li {list-style: none;}
+a { text-decoration: none; }
+
+
 body {
-  /* margin: 0 auto;
-  height: 100vh;
-  width: 100vw; */
+  height: 100%;
+  width: 100%;
+  color: #646464;
+	font-family: YuGothic, Yu Gothic, "游ゴシック体", "游ゴシック", "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
 }
-/* -----------⬆リセットCSS⬆--------------------- */
+
+#wrapper {
+  margin: 0;
+  background-color: black;
+}
 
 header {
-
+  padding: 40px 0;
+  background-color: darkkhaki;
+}
+header h1 {
+  background-color: darkolivegreen;
+  text-align: center;
+}
+header h1 a {
+  color: #fff;
 }
 
 nav {
-
+  background-color: darkolivegreen;
+  padding: 20px 0;
+  text-align: center;
 }
-
-/* .header-logo {
-
+nav li {
+	display: inline-block; 
 }
-.header-title {
-
+nav ul {
+  background-color: darkorchid;
+  padding: 10px 0;
 }
-.header-subtitle {
-
+nav > ul > li {
+  background-color: darkseagreen;
+  padding: 0 17px;
 }
-.header-lists {
-
+nav > ul > li > a {
+  color: #fff;
+  display: block;
+  padding: 0 0 3px;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+	font-family: yu-mincho-pr6, sans-serif;
 }
-.header-list {
-
+nav > ul > ul > li > a {
+  color: #fff;
 }
-.header-link {
-
-} */
 
 section {
-
+  background-color: darkkhaki;
+  padding: 20px 0;
 }
-
-/* .section-image {
-
+section div {
+  background-color: darkolivegreen;
+  height: 200px;
+  margin-bottom: 20px;
 }
-.section-consept {
-
+section > div > h3 {
+  color: #fff;
+  background-color: darkgreen;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+	font-family: yu-mincho-pr6, sans-serif;
 }
-.section-news {
-
-}
-.section-link {
-
-}
-.section-instagram {
-
-}
-.section-access {
-
-} */
 
 footer {
-
+  background-color: darkkhaki;
+  padding: 20px 0;
+}
+footer > div {
+  background-color: darkolivegreen;
+  color: #fff;
+  text-align: center;
+}
+footer > div > p {
+  color: #fff;
+  margin: auto;
+  background-color: darkorange;
+  width: 200px;
+}
+footer > div > p > a {
+  color: #fff;
 }
