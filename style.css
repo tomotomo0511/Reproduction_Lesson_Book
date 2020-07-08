@@ -42,6 +42,13 @@ figure {
   margin: 0;
 }
 
+/* 投稿日 */
+time {
+  color: #666666;
+  margin-bottom: 15px;
+  display: block;
+}
+
 /* 「フッター」ブロック */
 footer {
   background-color: #6ac4eb;
