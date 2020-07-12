@@ -69,7 +69,7 @@ nav li:not(:last-child) {
 }
 
 /* 「コンテンツ」ブロック */
-div {
+.contents {
   background-color: #29abe2;
   padding: 40px 15px;
 }
@@ -143,4 +143,34 @@ footer {
   font-size: 14px;
   text-align: center;
   font-family: 'Exo 2', sans-serif;
+}
+
+/* === PC版 === */
+@media (min-width: 600px) {
+  /* PC版:コンテナ */
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PC版:「ヘッダー」ブロック内のコンテナ */
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PC版:記事 */
+article {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
 }
