@@ -4,6 +4,8 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 /* 「ヘッダー」ブロック */
@@ -174,3 +176,39 @@ p {
   font-size: 18px;
 }
 }
+/*===  PC版の設定ここまで === */
+
+
+
+
+/* === PC版（大） === */
+@media (min-width: 1450px) {
+  /* PC版（大）: コンテナ */
+.container {
+  max-width: 1100px;
+}
+
+/* PC版（大）:「コンテンツ」ブロック内のコンテナ */
+.contents .container {
+  display: flex;
+  justify-content: space-between;
+}
+/* PC版（大）: 記事 */
+.article {
+  width: 68%;
+  box-sizing: border-box;
+}
+
+/* PC版（大）: サブメニュー */
+.sub {
+  width: 28%;
+}
+
+
+/* PC版（大）: プロフィール */
+.profile {
+  margin-top: 0;
+}
+}
+
+/*===  PC版（大）の設定ここまで === */
