@@ -147,6 +147,42 @@ footer {
   font-family: 'Exo 2', sans-serif;
 }
 
+/* トップページ:ヒーローイメージ */
+.hero {
+  background-image: url(img/green_ceiling.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 532px;
+  color: #ffffff;
+  padding: 15px;
+  background-origin: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-family: 'Exo 2', sans-serif;
+  text-shadow: 00 10px #444444;
+  text-align: center;
+}
+
+.hero p {
+  font-weight: bold;
+  text-shadow: 0 0 10px #444444;
+  margin-top: 0;
+}
+
+.hero a {
+  border: solid 2px #ffffff;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: rgba(41, 171, 226, 0.7);
+  margin-top: 10px;
+}
+
 /* === PC版 === */
 @media (min-width: 600px) {
   /* PC版:コンテナ */
